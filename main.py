@@ -122,7 +122,7 @@ def run_script():
 
 def main():
     user_input = input(
-        "Quel action faire : (!run : lancer le script | !drop : supprimer toute les données de la table stations)\n")
+        "Quel action faire : (!run : lancer le script | !drop : supprimer toute les données de la table stations) | !backup : créer une base de données de secours\n")
     if user_input == "!run":
         run_script()
     elif user_input == "!drop":
